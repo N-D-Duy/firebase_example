@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#AE8383"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FireBase"
+        android:textSize="50sp"
+        android:textColor="@color/purple_700" />
+
+    <Button
+        android:id="@+id/write_btn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="write data" />
+
+    <Button
+        android:id="@+id/read_btn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Read data"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
